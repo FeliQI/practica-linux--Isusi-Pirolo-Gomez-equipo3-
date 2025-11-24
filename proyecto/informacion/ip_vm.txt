@@ -1,0 +1,4 @@
+========== IP DE LA VM - Isusi ==========
+    inet 192.168.56.10/24 brd 192.168.56.255 scope global enp0s8
+    
+
