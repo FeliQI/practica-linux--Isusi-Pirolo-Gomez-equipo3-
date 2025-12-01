@@ -1,5 +1,0 @@
-Permisos de /home/vagrant/isusi_espacio:
-drwxrwxr-x 2 vagrant vagrant 4096 Nov 30 21:20 /home/vagrant/isusi_espacio
-
-Permisos de /tmp/colaborativo:
-drwxrwxrwt 2 root root 4096 Dec  1 22:37 /tmp/colaborativo
