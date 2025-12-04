@@ -4,3 +4,6 @@
 ========== IP DE LA VM - PIROLO ==========
     inet 192.168.100.41/24 brd 192.168.100.255 scope global enp0s8
 
+========== IP DE LA VM - GUILLERMO ==========
+    inet 10.0.2.15/24 brd 10.0.2.255 scope global dynamic enp0s3
+
