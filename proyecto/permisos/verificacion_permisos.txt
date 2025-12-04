@@ -1,12 +1,15 @@
 ========== VERIFICACIÓN DE PERMISOS - ISUSI ==========
 Archivos en mi directorio personal:
-total 24
-drwxrwxr-x 2 vagrant vagrant 4096 Nov 23 18:39 informacion
-drwxrwxr-x 2 vagrant vagrant 4096 Nov 30 21:20 isusi_espacio
--rw------- 1 vagrant vagrant   16 Dec  3 20:40 privado.txt
--rw-r--r-- 1 vagrant vagrant   16 Dec  3 20:40 publico.txt
--rw-rw-r-- 1 vagrant vagrant  281 Dec  1 22:39 usuarios_isusi.txt
--rw-rw-r-- 1 vagrant vagrant  207 Dec  1 22:39 verificacion_permisos.txt
+total 16
+drwxrwxr-x 2 vagrant vagrant 4096 Nov 30 21:20 .
+drwxr-x--- 7 vagrant vagrant 4096 Dec  4 17:22 ..
+-rw------- 1 vagrant vagrant   26 Nov 30 21:17 privado.txt
+-rw-r--r-- 1 vagrant vagrant   27 Nov 30 21:20 publico.txt
+
 Archivos en directorio colaborativo:
+total 8
+drwxrwx---  2 root equipotrabajo 4096 Dec  4 19:28 .
+drwxrwxrwt 14 root root          4096 Dec  4 19:28 ..
+
 Información del grupo equipotrabajo:
 equipotrabajo:x:1003:estudiante2,estudiante1,estudiante3,vagrant
