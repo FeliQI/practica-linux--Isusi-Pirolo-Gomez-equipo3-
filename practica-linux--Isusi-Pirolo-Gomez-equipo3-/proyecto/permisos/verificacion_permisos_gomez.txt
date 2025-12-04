@@ -1,0 +1,9 @@
+========== VERIFICACIÓN DE PERMISOS - GOMEZ ==========
+Archivos en mi directorio personal:
+
+
+Archivos en directorio colaborativo:
+
+Información del grupo equipotrabajo:
+
+equipotrabajo:x:1003:estudiante2,estudiante1,estudiante3,vagrant

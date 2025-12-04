@@ -1,0 +1,27 @@
+========== VERIFICACIÓN DE ARCHIVOS - ISUSI ==========
+Estructura de directorios creada:
+/mnt/lvm_storage_isusi
+/mnt/lvm_storage_isusi/lost+found
+/mnt/lvm_storage_isusi/temporal
+/mnt/lvm_storage_isusi/respaldos
+/mnt/lvm_storage_isusi/proyectos
+/mnt/lvm_storage_isusi/proyectos/activos
+/mnt/lvm_storage_isusi/proyectos/archivados
+
+Archivos en cada directorio:
+-rw-rw-r-- 1 vagrant vagrant 27 Dec  3 22:02 /mnt/lvm_storage_isusi/temporal/documento_01.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Dec  3 22:02 /mnt/lvm_storage_isusi/temporal/documento_02.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Dec  3 22:02 /mnt/lvm_storage_isusi/temporal/documento_03.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Dec  3 22:02 /mnt/lvm_storage_isusi/temporal/documento_05.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Dec  3 22:02 /mnt/lvm_storage_isusi/temporal/documento_04.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Dec  3 22:04 /mnt/lvm_storage_isusi/respaldos/documento_09.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Dec  3 22:04 /mnt/lvm_storage_isusi/respaldos/documento_10.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Dec  3 22:03 /mnt/lvm_storage_isusi/proyectos/activos/documento_01.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Dec  3 22:03 /mnt/lvm_storage_isusi/proyectos/activos/documento_02.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Dec  3 22:03 /mnt/lvm_storage_isusi/proyectos/activos/documento_03.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Dec  3 22:03 /mnt/lvm_storage_isusi/proyectos/activos/documento_05.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Dec  3 22:03 /mnt/lvm_storage_isusi/proyectos/activos/documento_04.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Dec  3 22:02 /mnt/lvm_storage_isusi/proyectos/archivados/documento_08.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Dec  3 22:02 /mnt/lvm_storage_isusi/proyectos/archivados/documento_07.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Dec  3 22:02 /mnt/lvm_storage_isusi/proyectos/archivados/documento_06.txt
+
