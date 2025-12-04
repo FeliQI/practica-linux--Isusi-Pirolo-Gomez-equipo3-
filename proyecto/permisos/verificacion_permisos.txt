@@ -5,11 +5,29 @@ drwxrwxr-x 2 vagrant vagrant 4096 Nov 30 21:20 .
 drwxr-x--- 7 vagrant vagrant 4096 Dec  4 17:22 ..
 -rw------- 1 vagrant vagrant   26 Nov 30 21:17 privado.txt
 -rw-r--r-- 1 vagrant vagrant   27 Nov 30 21:20 publico.txt
+<<<<<<< HEAD
 
 Archivos en directorio colaborativo:
 total 8
 drwxrwx---  2 root equipotrabajo 4096 Dec  4 19:28 .
 drwxrwxrwt 14 root root          4096 Dec  4 19:28 ..
 
+=======
+Archivos en directorio colaborativo:
+total 8
+drwxrwx---  2 root equipotrabajo 4096 Dec  4 19:28 .
+drwxrwxrwt 14 root root          4096 Dec  4 19:28 .
+>>>>>>> 42f024b (Lvm y verificacion de permisos gomez)
 Información del grupo equipotrabajo:
 equipotrabajo:x:1003:estudiante2,estudiante1,estudiante3,vagrant
+
+========== VERIFICACIÓN DE PERMISOS - GOMEZ ==========
+Archivos en mi directorio personal:
+total 8
+drwxrwxr-x 2 vagrant vagrant 4096 Dec  4 18:54 .
+drwxr-x--- 9 vagrant vagrant 4096 Dec  4 18:53 ..
+-rw------- 1 vagrant vagrant    0 Dec  4 18:54 privado.txt
+-rw-r--r-- 1 vagrant vagrant    0 Dec  4 18:54 publico.txt
+Archivos en directorio colaborativo:
+Información del grupo equipotrabajo:
+equipotrabajo:x:1001:estudiante2,estudiante1,estudiante3,vagrant
