@@ -25,3 +25,31 @@ Archivos en cada directorio:
 -rw-rw-r-- 1 vagrant vagrant 27 Dec  3 22:02 /mnt/lvm_storage_isusi/proyectos/archivados/documento_07.txt
 -rw-rw-r-- 1 vagrant vagrant 27 Dec  3 22:02 /mnt/lvm_storage_isusi/proyectos/archivados/documento_06.txt
 
+========== VERIFICACIÓN DE ARCHIVOS - GOMEZ ==========
+Estructura de directorios creada:
+/mnt/lvm_storage_gomez
+/mnt/lvm_storage_gomez/proyectos
+/mnt/lvm_storage_gomez/proyectos/activos
+/mnt/lvm_storage_gomez/proyectos/archivados
+/mnt/lvm_storage_gomez/respaldos
+/mnt/lvm_storage_gomez/lost+found
+/mnt/lvm_storage_gomez/temporal
+/mnt/lvm_storage_gomez/temporal/archivos
+Archivos en cada directorio:
+-rw-rw-r-- 1 vagrant vagrant 27 Dec  4 23:41 /mnt/lvm_storage_gomez/proyectos/activos/documento_01.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Dec  4 23:41 /mnt/lvm_storage_gomez/proyectos/activos/documento_03.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Dec  4 23:41 /mnt/lvm_storage_gomez/proyectos/activos/documento_04.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Dec  4 23:41 /mnt/lvm_storage_gomez/proyectos/activos/documento_02.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Dec  4 23:41 /mnt/lvm_storage_gomez/proyectos/activos/documento_05.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Dec  4 23:41 /mnt/lvm_storage_gomez/proyectos/archivados/documento_06.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Dec  4 23:41 /mnt/lvm_storage_gomez/proyectos/archivados/documento_07.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Dec  4 23:41 /mnt/lvm_storage_gomez/proyectos/archivados/documento_08.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Dec  4 23:41 /mnt/lvm_storage_gomez/respaldos/documento_10.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Dec  4 23:41 /mnt/lvm_storage_gomez/respaldos/documento_09.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Dec  4 23:41 /mnt/lvm_storage_gomez/temporal/documento_01.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Dec  4 23:41 /mnt/lvm_storage_gomez/temporal/documento_03.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Dec  4 23:41 /mnt/lvm_storage_gomez/temporal/documento_04.txt
+-rw-rw-r-- 1 vagrant vagrant 4016 Dec  4 23:47 /mnt/lvm_storage_gomez/temporal/archivos/verificacion_archivos.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Dec  4 23:41 /mnt/lvm_storage_gomez/temporal/documento_02.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Dec  4 23:41 /mnt/lvm_storage_gomez/temporal/documento_05.txt
+
