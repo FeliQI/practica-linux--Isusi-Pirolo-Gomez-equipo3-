@@ -1,7 +1,10 @@
 version: '3.8'
 
 services:
+<<<<<<< HEAD
   # Servicio 1: Nginx - Servidor web
+=======
+>>>>>>> 86e8684dd17b1e72366baab2e1ada5d7ebd301ae
   nginx:
     container_name: nginx-practica
     image: nginx:alpine
@@ -11,7 +14,10 @@ services:
     networks:
       - monitoring
 
+<<<<<<< HEAD
   # Servicio 2: Redis - Base de datos en memoria
+=======
+>>>>>>> 86e8684dd17b1e72366baab2e1ada5d7ebd301ae
   redis:
     container_name: redis-practica
     image: redis:alpine
@@ -19,9 +25,14 @@ services:
       - "6379:6379"
     restart: unless-stopped
     networks:
+<<<<<<< HEAD
       - monitoring   # CORREGIDO: antes decía "monitoring-network" (no existía)
 
   # Servicio 3: Postgres - Base de datos
+=======
+      - monitoring
+
+>>>>>>> 86e8684dd17b1e72366baab2e1ada5d7ebd301ae
   postgres:
     container_name: postgres-practica
     image: postgres:alpine
@@ -35,7 +46,10 @@ services:
     networks:
       - monitoring
 
+<<<<<<< HEAD
   # Prometheus - Recolección de métricas
+=======
+>>>>>>> 86e8684dd17b1e72366baab2e1ada5d7ebd301ae
   prometheus:
     container_name: prometheus-practica
     image: prom/prometheus:latest
@@ -52,19 +66,29 @@ services:
       - nginx
       - redis
 
+<<<<<<< HEAD
   # Loki - Agregación de logs
+=======
+>>>>>>> 86e8684dd17b1e72366baab2e1ada5d7ebd301ae
   loki:
     container_name: loki-practica
     image: grafana/loki:latest
     ports:
       - "3100:3100"
+<<<<<<< HEAD
     command:
       - "-config.file=/etc/loki/local-config.yaml"
+=======
+    command: -config.file=/etc/loki/local-config.yaml
+>>>>>>> 86e8684dd17b1e72366baab2e1ada5d7ebd301ae
     restart: unless-stopped
     networks:
       - monitoring
 
+<<<<<<< HEAD
   # Grafana - Visualización
+=======
+>>>>>>> 86e8684dd17b1e72366baab2e1ada5d7ebd301ae
   grafana:
     container_name: grafana-practica
     image: grafana/grafana:latest
@@ -74,7 +98,11 @@ services:
       - GF_SECURITY_ADMIN_PASSWORD=practica123
       - GF_USERS_ALLOW_SIGN_UP=false
     volumes:
+<<<<<<< HEAD
       - grafana-storage:/var/lib/grafana
+=======
+      - grafana-data:/var/lib/grafana
+>>>>>>> 86e8684dd17b1e72366baab2e1ada5d7ebd301ae
     restart: unless-stopped
     depends_on:
       - prometheus
@@ -87,6 +115,7 @@ networks:
     driver: bridge
 
 volumes:
+<<<<<<< HEAD
   grafana-storage:
 
   restart: unless-stopped
@@ -100,3 +129,7 @@ volumes:
   driver: bridge
   volumes:
   grafana-storage:
+=======
+  grafana-data:
+
+>>>>>>> 86e8684dd17b1e72366baab2e1ada5d7ebd301ae

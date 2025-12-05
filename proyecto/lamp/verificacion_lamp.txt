@@ -1,0 +1,32 @@
+========== VERIFICACIÓN SERVIDOR LAMP - FELIPE ==========
+=== VERSIONES INSTALADAS ===
+Server version: Apache/2.4.52 (Ubuntu)
+Server built:   2025-08-11T12:10:10
+mysql  Ver 8.0.44-0ubuntu0.22.04.1 for Linux on x86_64 ((Ubuntu))
+PHP 8.1.2-1ubuntu2.22 (cli) (built: Jul 15 2025 12:11:22) (NTS)
+Copyright (c) The PHP Group
+Zend Engine v4.1.2, Copyright (c) Zend Technologies
+    with Zend OPcache v8.1.2-1ubuntu2.22, Copyright (c), by Zend Technologies
+
+=== ESTADO DE SERVICIOS ===
+● apache2.service - The Apache HTTP Server
+     Loaded: loaded (/lib/systemd/system/apache2.service; enabled; vendor preset: enabled)
+     Active: active (running) since Thu 2025-12-04 23:22:10 UTC; 28min ago
+       Docs: https://httpd.apache.org/docs/2.4/
+    Process: 2791 ExecStart=/usr/sbin/apachectl start (code=exited, status=0/SUCCESS)
+   Main PID: 2795 (apache2)
+      Tasks: 7 (limit: 2309)
+     Memory: 15.2M
+        CPU: 242ms
+     CGroup: /system.slice/apache2.service
+             ├─2795 /usr/sbin/apache2 -k start
+             ├─2796 /usr/sbin/apache2 -k start
+             ├─2797 /usr/sbin/apache2 -k start
+             ├─2798 /usr/sbin/apache2 -k start
+             ├─2799 /usr/sbin/apache2 -k start
+             ├─2800 /usr/sbin/apache2 -k start
+             └─2820 /usr/sbin/apache2 -k start
+
+Dec 04 23:22:09 linux-practice systemd[1]: Starting The Apache HTTP Server...
+Dec 04 23:22:10 linux-practice apachectl[2794]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.2.1. Set the 'ServerName' directive globally to suppress this message
+Dec 04 23:22:10 linux-practice systemd[1]: Started The Apache HTTP Server.
