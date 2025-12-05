@@ -71,11 +71,11 @@ Capturas de pantalla: screen_PHP.png, screen_web_principal.png, screen_MySQL.png
 
 🔗 Links de prueba del servidor LAMP
 
-Sitio principal
+Sitio principal: http://192.168.56.10
 
-PHP info
+PHP info: http://192.168.56.10/info.php
 
-Test DB
+Test DB: http://192.168.56.10/test_db.php
 
 🎯 Objetivo y conclusión
 
