@@ -1,9 +1,9 @@
 🚀 Trabajo Final – Arquitectura y Sistemas Operativos
 
 Este repositorio contiene el Trabajo Final de la materia Arquitectura y Sistemas Operativos.
-El objetivo del proyecto fue implementar y automatizar una máquina virtual usando Vagrant, aplicando conceptos clave de administración de sistemas: creación de usuarios, permisos, gestión de volúmenes LVM, despliegue de contenedores y configuración de un servidor LAMP completamente funcional.
+El objetivo del proyecto fue implementar y automatizar una máquina virtual utilizando Vagrant, aplicando conceptos clave de administración de sistemas: creación de usuarios, permisos, gestión de volúmenes LVM, despliegue de contenedores y configuración de un servidor LAMP completamente funcional.
 
-El proyecto se desarrolló de manera colaborativa, con seguimiento y control de versiones a través de Git.
+El proyecto se desarrolló de manera colaborativa, con seguimiento y control de versiones mediante Git.
 
 👥 Integrantes del equipo
 
@@ -39,7 +39,7 @@ verificacion_permisos.txt → Resultados de las verificaciones de permisos
 
 Configuración y verificación de volúmenes LVM:
 
-lvm-isusi.txt, lvm-pirolo.txt, lvm-gomez.txt → Configuraciones de cada integrante
+lvm-isusi.txt, lvm-pirolo.txt, lvm-gomez.txt → Configuraciones realizadas por cada integrante
 
 verificar_lvm.sh → Script para comprobar la configuración de LVM
 
@@ -47,7 +47,7 @@ verificar_lvm.sh → Script para comprobar la configuración de LVM
 
 Archivos del sistema y sus verificaciones:
 
-verificacion_archivos.txt → Registro de comprobaciones
+verificacion_archivos.txt → Registro de comprobaciones realizadas
 
 🐳 contenedores/
 
@@ -79,7 +79,7 @@ Test DB: http://192.168.56.10/test_db.php
 
 🎯 Objetivo y conclusión
 
-Se logró implementar una máquina virtual totalmente funcional, con todos los servicios solicitados:
+Se logró implementar una máquina virtual totalmente funcional, cumpliendo con todos los requerimientos del trabajo:
 
 Administración de usuarios y permisos
 
@@ -91,4 +91,4 @@ Contenedores Docker con monitoreo
 
 Servidor LAMP estable y verificado
 
-El repositorio documenta cada paso del proyecto, incluyendo archivos de configuración, scripts de verificación, documentación y capturas de pantalla que respaldan la funcionalidad de cada componente.
+El repositorio documenta cada paso del proyecto, incluyendo configuraciones, scripts, verificaciones y capturas de pantalla que respaldan la funcionalidad de cada componente.
