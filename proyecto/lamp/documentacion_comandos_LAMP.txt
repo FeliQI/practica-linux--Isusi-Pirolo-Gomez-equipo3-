@@ -1,0 +1,132 @@
+Práctica: Implementación de Servidor LAMP Completo
+
+1. Instalación del stack LAMP
+- Actualizar repositorios:
+sudo apt-get update
+
+- Instalación de Apache, MySQL y PHP:
+sudo apt-get install -y apache2 mysql-server php libapache2-mod-php php-mysql
+
+- Verificar estado inicial de Apache:
+sudo systemctl status apache2
+
+
+2. Configuración de MySQL
+- Iniciar MySQL:
+sudo systemctl start mysql
+
+- Habilitar MySQL en el arranque:
+sudo systemctl enable mysql
+
+- Ejecución del script de seguridad:
+sudo mysql_secure_installation
+
+- Creación de base de datos:
+sudo mysql -e "CREATE DATABASE tp_final_db;"
+
+- Creación de usuario:
+sudo mysql -e "CREATE USER 'alumno'@'localhost' IDENTIFIED BY 'practica123';"
+
+- Asignación de permisos:
+sudo mysql -e "GRANT ALL PRIVILEGES ON tp_final_db.* TO 'alumno'@'localhost';"
+
+- Aplicar cambios:
+sudo mysql -e "FLUSH PRIVILEGES;"
+
+
+3. Configuración de Apache
+- Habilitar módulos necesarios:
+sudo a2enmod rewrite
+sudo a2enmod php8.1
+
+- Reiniciar Apache:
+sudo systemctl restart apache2
+
+- Habilitar Apache en el arranque:
+sudo systemctl enable apache2
+
+- Verificación de estado:
+sudo systemctl status apache2 --no-pager
+
+- Verificación de módulos cargados (opcional, ejecutado):
+apache2ctl -M | grep rewrite
+apache2ctl -M | grep php
+
+
+4. Creación del sitio web
+- Crear archivo /var/www/html/index.html:
+sudo bash -c 'cat << "EOF" > /var/www/html/index.html
+[... HTML COMPLETO COLOCADO AQUÍ ...]
+EOF'
+
+- Prueba inicial del sitio:
+curl http://192.168.56.10
+
+
+5. Crear archivo de prueba PHP (info.php)
+- Crear archivo info.php:
+echo "<?php phpinfo(); ?>" | sudo tee /var/www/html/info.php
+
+- Verificación:
+curl http://192.168.56.10/info.php
+
+
+6. Crear archivo de conexión a MySQL (test_db.php)
+sudo tee /var/www/html/test_db.php > /dev/null << 'EOF'
+<?php
+$servername = "localhost";
+$username = "alumno";
+$password = "practica123";
+$dbname = "tp_final_db";
+
+$conn = new mysqli($servername, $username, $password, $dbname);
+
+if ($conn->connect_error) {
+    die("Conexión fallida: " . $conn->connect_error);
+}
+
+echo "<h2>Conexión exitosa a MySQL</h2>";
+echo "<p>Base de datos: " . $dbname . "</p>";
+echo "<p>Servidor: " . $servername . "</p>";
+
+$conn->close();
+?>
+EOF
+
+
+7. Configuración de permisos
+sudo chown -R www-data:www-data /var/www/html/
+sudo chmod -R 755 /var/www/html/
+
+
+8. Verificación de servicios
+- Estado de servicios:
+sudo systemctl status apache2
+sudo systemctl status mysql
+
+- Verificación desde navegador:
+http://192.168.56.10/
+http://192.168.56.10/info.php
+http://192.168.56.10/test_db.php
+
+
+9. Archivo de verificación (verificacion_lamp.txt)
+mkdir -p lamp
+
+echo "========== VERIFICACIÓN SERVIDOR LAMP  ==========" > lamp/verificacion_lamp.txt
+
+echo "=== VERSIONES INSTALADAS ===" >> lamp/verificacion_lamp.txt
+apache2 -v >> lamp/verificacion_lamp.txt
+mysql --version >> lamp/verificacion_lamp.txt
+php -v >> lamp/verificacion_lamp.txt
+
+echo "" >> lamp/verificacion_lamp.txt
+echo "=== ESTADO DE SERVICIOS ===" >> lamp/verificacion_lamp.txt
+sudo systemctl status apache2 --no-pager >> lamp/verificacion_lamp.txt
+
+echo "" >> lamp/verificacion_lamp.txt
+sudo systemctl status mysql --no-pager >> lamp/verificacion_lamp.txt
+
+
+Conclusión:
+El servidor LAMP quedó configurado correctamente. Apache, PHP y MySQL funcionan, el sitio web se visualiza y la conexión a la base de datos fue verificada con éxito.
