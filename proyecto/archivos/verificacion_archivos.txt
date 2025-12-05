@@ -26,6 +26,34 @@ Archivos en cada directorio:
 -rw-rw-r-- 1 vagrant vagrant 27 Dec  3 22:02 /mnt/lvm_storage_isusi/proyectos/archivados/documento_06.txt
 
 <<<<<<< HEAD
+
+========== VERIFICACIÓN DE ARCHIVOS - PIROLO ==========
+Estructura de directorios creada:
+/mnt/lvm_storage_pirolo
+/mnt/lvm_storage_pirolo/temporal
+/mnt/lvm_storage_pirolo/proyectos
+/mnt/lvm_storage_pirolo/proyectos/activos
+/mnt/lvm_storage_pirolo/proyectos/archivados
+/mnt/lvm_storage_pirolo/lost+found
+/mnt/lvm_storage_pirolo/respaldos
+Archivos en cada directorio:
+-rw-rw-r-- 1 vagrant vagrant 27 Dec  4 23:50 /mnt/lvm_storage_pirolo/temporal/documento_02.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Dec  4 23:50 /mnt/lvm_storage_pirolo/temporal/documento_01.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Dec  4 23:50 /mnt/lvm_storage_pirolo/temporal/documento_04.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Dec  4 23:50 /mnt/lvm_storage_pirolo/temporal/documento_05.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Dec  4 23:50 /mnt/lvm_storage_pirolo/temporal/documento_03.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Dec  4 23:50 /mnt/lvm_storage_pirolo/proyectos/activos/documento_02.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Dec  4 23:50 /mnt/lvm_storage_pirolo/proyectos/activos/documento_01.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Dec  4 23:50 /mnt/lvm_storage_pirolo/proyectos/activos/documento_04.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Dec  4 23:50 /mnt/lvm_storage_pirolo/proyectos/activos/documento_05.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Dec  4 23:50 /mnt/lvm_storage_pirolo/proyectos/activos/documento_03.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Dec  4 23:50 /mnt/lvm_storage_pirolo/proyectos/archivados/documento_08.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Dec  4 23:50 /mnt/lvm_storage_pirolo/proyectos/archivados/documento_07.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Dec  4 23:50 /mnt/lvm_storage_pirolo/proyectos/archivados/documento_06.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Dec  4 23:50 /mnt/lvm_storage_pirolo/respaldos/documento_10.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Dec  4 23:50 /mnt/lvm_storage_pirolo/respaldos/documento_09.txt
+>>>>>>> 86e8684dd17b1e72366baab2e1ada5d7ebd301ae
+
 ========== VERIFICACIÓN DE ARCHIVOS - GOMEZ ==========
 Estructura de directorios creada:
 /mnt/lvm_storage_gomez
@@ -54,30 +82,3 @@ Archivos en cada directorio:
 -rw-rw-r-- 1 vagrant vagrant 27 Dec  4 23:41 /mnt/lvm_storage_gomez/temporal/documento_02.txt
 -rw-rw-r-- 1 vagrant vagrant 27 Dec  4 23:41 /mnt/lvm_storage_gomez/temporal/documento_05.txt
 =======
-========== VERIFICACIÓN DE ARCHIVOS - PIROLO ==========
-Estructura de directorios creada:
-/mnt/lvm_storage_pirolo
-/mnt/lvm_storage_pirolo/temporal
-/mnt/lvm_storage_pirolo/proyectos
-/mnt/lvm_storage_pirolo/proyectos/activos
-/mnt/lvm_storage_pirolo/proyectos/archivados
-/mnt/lvm_storage_pirolo/lost+found
-/mnt/lvm_storage_pirolo/respaldos
-Archivos en cada directorio:
--rw-rw-r-- 1 vagrant vagrant 27 Dec  4 23:50 /mnt/lvm_storage_pirolo/temporal/documento_02.txt
--rw-rw-r-- 1 vagrant vagrant 27 Dec  4 23:50 /mnt/lvm_storage_pirolo/temporal/documento_01.txt
--rw-rw-r-- 1 vagrant vagrant 27 Dec  4 23:50 /mnt/lvm_storage_pirolo/temporal/documento_04.txt
--rw-rw-r-- 1 vagrant vagrant 27 Dec  4 23:50 /mnt/lvm_storage_pirolo/temporal/documento_05.txt
--rw-rw-r-- 1 vagrant vagrant 27 Dec  4 23:50 /mnt/lvm_storage_pirolo/temporal/documento_03.txt
--rw-rw-r-- 1 vagrant vagrant 27 Dec  4 23:50 /mnt/lvm_storage_pirolo/proyectos/activos/documento_02.txt
--rw-rw-r-- 1 vagrant vagrant 27 Dec  4 23:50 /mnt/lvm_storage_pirolo/proyectos/activos/documento_01.txt
--rw-rw-r-- 1 vagrant vagrant 27 Dec  4 23:50 /mnt/lvm_storage_pirolo/proyectos/activos/documento_04.txt
--rw-rw-r-- 1 vagrant vagrant 27 Dec  4 23:50 /mnt/lvm_storage_pirolo/proyectos/activos/documento_05.txt
--rw-rw-r-- 1 vagrant vagrant 27 Dec  4 23:50 /mnt/lvm_storage_pirolo/proyectos/activos/documento_03.txt
--rw-rw-r-- 1 vagrant vagrant 27 Dec  4 23:50 /mnt/lvm_storage_pirolo/proyectos/archivados/documento_08.txt
--rw-rw-r-- 1 vagrant vagrant 27 Dec  4 23:50 /mnt/lvm_storage_pirolo/proyectos/archivados/documento_07.txt
--rw-rw-r-- 1 vagrant vagrant 27 Dec  4 23:50 /mnt/lvm_storage_pirolo/proyectos/archivados/documento_06.txt
--rw-rw-r-- 1 vagrant vagrant 27 Dec  4 23:50 /mnt/lvm_storage_pirolo/respaldos/documento_10.txt
--rw-rw-r-- 1 vagrant vagrant 27 Dec  4 23:50 /mnt/lvm_storage_pirolo/respaldos/documento_09.txt
->>>>>>> 86e8684dd17b1e72366baab2e1ada5d7ebd301ae
-
